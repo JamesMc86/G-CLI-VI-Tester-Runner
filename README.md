@@ -3,7 +3,7 @@ G CLI Tool to Run VI Tester from the command line
 
 # Requirements
 
-* LabVIEW 2014 or higher.
+* LabVIEW 2015 or higher.
 
 ## Parameters
 
@@ -19,9 +19,7 @@ Name: viTester
 
 ### Returns
 
-If xml is provided this step will return nothing.
-
-If it isn't provided then it will return exit code 42 if the tests fail and output the text details to the console.
+Returns exit code 1 for a test failure.
 
 ### Example Call
 
